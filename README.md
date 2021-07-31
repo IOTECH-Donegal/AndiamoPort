@@ -7,7 +7,7 @@ Configurations for marinized RPi 3B+ identified by
 All external interfacing is via a Zihatec RS422 hat.
 The boat has a Shipmodul NMEA0183/2000 multiplexor.
 
-Build
+### Build
 
     Build from generic Raspbian Buster image
     Plug in Ethernet
@@ -19,7 +19,7 @@ Build
     Reboot
     You may install OpenCPN and CM93 charts for test and verification.
 
-Configure Zihatec hat;
+### Configure Zihatec hat
     
     Check to make sure you DO NOT have /dev/ttyS0
     sudo raspi config
@@ -30,17 +30,17 @@ Configure Zihatec hat;
     Exit and reboot
     After reboot, confirm you have /dev/ttyS0
 
-Network 
+### Network 
 
     This configuration assumes the boat has its own Mi-Fi
     Join Andiamo Mi-Fi radio network
 
-Devices
+### Devices
     The Zihatec hat is on /dev/ttyS0
     U-Blox will normally be /dev/ttyACM0 @ 38,400 
     NMEA via USB will probably be /dev/ttyUSB0 @ 4,800
 
-Autostart
+### Autostart
 
     Copy across the most recent version of autoexec.py
     edit /etc/rc.local and add;
@@ -48,7 +48,7 @@ Autostart
     sudo python3 /home/pi/autoexec.py & 
     exit 0
     
-Test
+### Test
 
     Make sure system logs to the correct directory
     Make sure a fresh logfile is created after each reboot
