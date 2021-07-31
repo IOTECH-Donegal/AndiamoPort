@@ -1,4 +1,4 @@
-# Andiamo-Port
+# AndiamoPort
 This is a configuration for a complex boat with multiple instruments and RTK precision navigation.
 As a RPi does not have a built-in RTC, it needs time synch at startup.
 This configuration has always-on Internet via a Mi-Fi, it does not use SetUTC for time synch.
