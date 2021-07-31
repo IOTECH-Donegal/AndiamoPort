@@ -1,11 +1,15 @@
 # Andiamo-Port
-Configurations for marinized RPi 3B+ identified by 
+This is a configuration for a complex boat with multiple instruments and RTK precision navigation.
 
-- Ethernet: b8:27:eb:35:87:55
-- WiFi: b8:27:eb:60:d2:00
+### Boats Brains
 
-All external interfacing is via a Zihatec RS422 hat.
-The boat has a Shipmodul NMEA0183/2000 multiplexor.
+    Marinized RPi 3B+ identified by 
+
+    - Ethernet: b8:27:eb:35:87:55
+    - WiFi: b8:27:eb:60:d2:00
+
+    All external interfacing is via a Zihatec RS422 hat.
+    The boat has a Shipmodul NMEA0183/2000 multiplexor.
 
 ### Build
 
